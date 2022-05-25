@@ -1,0 +1,62 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-weight: 400;
+}
+
+/*ESTILOS VIA BEM*/
+
+
+.header{
+    background-color: blueviolet;
+    padding: 20px 30px;
+
+}
+
+.header__logo{
+    font-size: 14px;
+    font-weight: 700;
+}
+.header__nav{
+    background-color: tomato;
+    padding: 20px 30px;
+    position: relative;
+}
+
+
+.header__item{
+    display: inline-block; 
+    margin: 20px 10px;
+}
+
+
+.hero{
+    background-image: url("../assets/imagen1.jpeg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;  
+    position: relative;
+}
+
+.hero__contenedor{
+    width: 600px;
+    position: absolute;
+    top: 60px; 
+    left: 60px;
+}
+
+.hero__btn{
+    padding: 20px 25px;
+    background-color: brown;
+    color: white;
+    border: 1px solid red;
+    margin-top: 1rem; 
+    display: inline-block;
+}
+
